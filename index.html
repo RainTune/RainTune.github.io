@@ -95,18 +95,18 @@
         transform: translateY(80px) rotateX(-90deg);
     }
     ul.active{
-        animation: rotate linear 5s forwards,roll linear 10s 5s infinite;
+        animation: rotate linear 2s forwards,roll linear 10s 2.5s infinite;
     }
     @keyframes  rotate{
         from {
             border-radius: 50%;
             overflow: hidden;
-            transform: translate(-100%,0);
+            transform: translate(-150%,0);
         }
         25%{
             border-radius: 50%;
             overflow: hidden;
-            transform: translate(0%, -100%);
+            transform: translate(0%, -150%);
         }
         50%{
             border-radius: 50%;
@@ -121,7 +121,7 @@
         to{
             border-radius: 50%;
             overflow: hidden;
-            transform: translate(-100%, 0%);
+            transform: translate(-150%, 0%);
         }
     }
     @keyframes roll {
