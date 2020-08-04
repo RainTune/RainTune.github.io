@@ -7,7 +7,12 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import(/* webpackChunkName: "chat" */ '../views/Three3d.vue')
+    component: () => import(/* webpackChunkName: "home" */ '../views/Three3d.vue')
+  },
+  {
+    path: '/map',
+    name: 'map',
+    component: () => import(/* webpackChunkName: "map" */ '../views/Map.vue')
   },
 ]
 

@@ -4,6 +4,7 @@
 
   </div>
   <a href="/简历.pdf" class="link">简历地址</a>
+  <router-link to="/map" class="link2">炫酷中国地图</router-link>
 </div>
 </template>
 
@@ -23,6 +24,13 @@ export default {
   position: fixed;
   left: 50%;
   top: 20px;
+  transform: translate(-50%, 0);
+  font-size: 18px;
+}
+.link2 {
+   position: fixed;
+  left: 50%;
+  top: 80px;
   transform: translate(-50%, 0);
   font-size: 18px;
 }
