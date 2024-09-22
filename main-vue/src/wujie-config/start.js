@@ -4,7 +4,7 @@ import credentialsFetch from "./fetch";
 import lifecycles from "./lifecycles";
 
 export const registerApp = (Vue, router) => {
-  const isProduction = process.env.NODE_ENV === "production";
+  // const isProduction = process.env.NODE_ENV === "production";
   const { setupApp } = WujieVue;
   Vue.use(WujieVue)
   const props = {
