@@ -10,6 +10,7 @@ export default {
   computed: {
     viteUrl() {
       const path = (this.$route.params.path || '');
+      console.log("hhhh")
       console.log("path:", path)
       return hostMap("//localhost:5173/") + path;
     },

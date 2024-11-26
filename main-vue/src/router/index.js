@@ -17,7 +17,7 @@ const routes = [
   {
     path: '/vite/:path?',
     name: "vite",
-    component: () => import(/* webpackChunkName: "map" */ '../views/Vite/index.vue')
+    component: () => import(/* webpackChunkName: "vite" */ '../views/Vite/index.vue')
   }
 ]
 
