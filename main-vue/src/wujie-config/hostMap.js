@@ -1,5 +1,5 @@
 const map = {
-  "//localhost:5173/": "//wujie-micro.github.io/demo-vite/",
+  "//localhost:5173/": "//RainTune.github.io/demo-vite/",
 };
 
 export default function hostMap(host) {
