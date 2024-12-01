@@ -12,7 +12,7 @@ export default defineConfig({
     vueJsx(),
     // vueDevTools(),
   ],
-  base: "./",
+  base: "/demo-vite/",
   server: {
     cors: true,
     host: "0.0.0.0",

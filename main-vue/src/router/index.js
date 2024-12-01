@@ -23,7 +23,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.NODE_ENV === "production" ? "/demo-main-vue/" : "",
+  base: "/demo-main-vue/",
   routes
 })
 

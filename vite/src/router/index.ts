@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 // @ts-ignore
-const basename = process.env.NODE_ENV === "production" ? "/demo-vite/" : "";
+// const basename = process.env.NODE_ENV === "production" ? "/demo-vite/" : "";
+const basename = "/demo-vite/"
 const router = createRouter({
   // history: createWebHistory(import.meta.env.BASE_URL),
   history: createWebHistory(basename),
